@@ -4,7 +4,7 @@ A Spring Boot example app that shows how to implement single sign-on (SSO) with 
 
 **Prerequisites:** 
 
-- [SDKMAN](https://sdkman.io/) (for Java 17)
+Java 17
 
 ## Getting Started
 
@@ -37,9 +37,9 @@ openssl req -newkey rsa:2048 -nodes -keyout local.key -x509 -days 365 -out local
 4) Open `http://localhost:8080` in your favorite browser and log in with the credentials you used to create your account.
 5) You should see a successful result in your browser.
 
-## Links
+## Reference
 
-This example uses Spring Boot and [Spring Security SAML](https://docs.spring.io/spring-security/reference/servlet/saml2/login/index.html) to integrate with Okta and Auth0. 
+https://docs.spring.io/spring-security/reference/servlet/saml2/login/index.html)
 
 
 ## License
@@ -47,5 +47,3 @@ This example uses Spring Boot and [Spring Security SAML](https://docs.spring.io/
 Apache 2.0, see [LICENSE](LICENSE).
 
 [blog]: https://developer.okta.com/blog/2022/08/05/spring-boot-saml
-
-# aurora-saml-springboot
