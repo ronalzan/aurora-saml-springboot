@@ -7,7 +7,7 @@ A Spring Boot example app that shows how to implement single sign-on (SSO) with 
 - Java 17
 - Spring Tools
 
-## Getting Started
+### Getting Started
 
 1) To install this example application, run the following commands:
 
