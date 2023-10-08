@@ -21,21 +21,22 @@ Aurora developer is responsible for this step.
 
 ### Run the App and Login
 
-1) Update **metadata-uri** in application.yml. Please contact Aurora support to provide the URL.
-2) Update **private-key-location** and **certificate-location** in application.yml with your application private and public key. You can create a private key and certificate using OpenSSL:
+1) Update **metadata-uri** in /src/main/resources/application.yml. Please contact Aurora support to provide the URL.
+2) Update **private-key-location** and **certificate-location** in /src/main/resources/application.yml with your application private and public key. You can create a private key and certificate using OpenSSL:
    
 ```shell
 openssl req -newkey rsa:2048 -nodes -keyout local.key -x509 -days 365 -out local.crt
 ```
 
-3) Run your Spring Boot app from your IDE or using the command line:
+3) Place your private keys and certificate in /src/main/resources/
+4) Run your Spring Boot app from your IDE or you can use command line below:
 
 ```shell
 ./gradlew bootRun
 ```
 
-4) Open `http://localhost:8080` in your favorite browser and log in with the credentials you used to create your account.
-5) You should see a successful result in your browser.
+5) Open `http://localhost:8080` in your favorite browser and log in with the credentials you used to create your account.
+6) You should see a successful result in your browser.
 
 ## Reference
 
