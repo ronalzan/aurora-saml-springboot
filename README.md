@@ -39,7 +39,7 @@ openssl req -newkey rsa:2048 -nodes -keyout local.key -x509 -days 365 -out local
 
 ## Reference
 
-https://docs.spring.io/spring-security/reference/servlet/saml2/login/index.html)
+https://docs.spring.io/spring-security/reference/servlet/saml2/login/index.html
 
 
 ## License
