@@ -5,16 +5,19 @@ A Spring Boot example app that shows how to implement single sign-on (SSO) with 
 **Prerequisites:** 
 
 - Java 17
+- Spring Tools
 
 ## Getting Started
 
-To install this example application, run the following commands:
+1) To install this example application, run the following commands:
 
 ```bash
 git clone https://github.com/ronalzan/aurora-saml-springboot.git
 cd aurora-saml-springboot
 ```
 
+2) Import as gradle project
+   
 ### Create a SAML App in Aurora
 
 Aurora developer is responsible for this step.
