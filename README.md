@@ -4,7 +4,7 @@ A Spring Boot example app that shows how to implement single sign-on (SSO) with 
 
 **Prerequisites:** 
 
-Java 17
+- Java 17
 
 ## Getting Started
 
