@@ -5,11 +5,11 @@ spring:
         registration:
           wso2:
             assertingparty:
-              metadata-uri: https://sitenv.workonarion.com/identity/metadata/saml2
+              metadata-uri: {aurora metadata url}
             signing:
               credentials:
-                - private-key-location: classpath:local.key
-                  certificate-location: classpath:local.crt
+                - private-key-location: {your application private key}
+                  certificate-location: {your application cert}
             singlelogout:
               binding: POST
               response-url: "{baseUrl}/logout/saml2/slo"
